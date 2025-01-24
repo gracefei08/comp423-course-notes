@@ -15,14 +15,14 @@ Before starting, ensure you have the following tools installed on your machine:
 
 1) Create a new directory for your project:
 
-```
+```bash
 mkdir go-dev-container
 cd go-dev-container
 ```
 
 2) Initialize a Git repository:
 
-```
+```bash
 git init
 ```
 
@@ -30,13 +30,13 @@ git init
 
 1) Inside the project directory, create a .devcontainer folder:
 
-```
+```bash
 mkdir .devcontainer
 ```
 
 2) Inside .devcontainer, create a devcontainer.json file:
 
-```
+```bash
 touch .devcontainer/devcontainer.json
 ```
 
@@ -100,7 +100,7 @@ func main() {
 
 1) Build the program using the build subcommand:
 
-```
+```bash
 go build -o hello_comp423
 ```
 
@@ -108,14 +108,15 @@ This creates a binary file named hello_comp423 in your project directory. The bu
 
 2) Run the compiled binary:
 
-```
+```bash
 ./hello_comp423
 ```
 
 Expected output:
 
-```
+```bash
 Hello COMP423
 ```
-
+!!! info Help
+      If anything goes wrong, you can use the `$ go help` command to see helpful commands.
 
