@@ -4,17 +4,10 @@ Primary author: [Grace Fei](https://github.com/gracefei08)
 ## Prerequisites
 Before starting, ensure you have the following tools installed on your machine:
 
-<<<<<<< HEAD
-- Docker
-- Visual Studio Code
-- Remote - Containers extension for VS Code
-- Git
-=======
 - [Docker](https://www.docker.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Remote - Containers extension for VS Code
 - [Git](https://git-scm.com/)
->>>>>>> edits/mt04-setup
 
 ## Instructions
 
@@ -22,22 +15,14 @@ Before starting, ensure you have the following tools installed on your machine:
 
 1) Create a new directory for your project:
 
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> edits/mt04-setup
 mkdir go-dev-container
 cd go-dev-container
 ```
 
 2) Initialize a Git repository:
 
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> edits/mt04-setup
 git init
 ```
 
@@ -45,21 +30,13 @@ git init
 
 1) Inside the project directory, create a .devcontainer folder:
 
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> edits/mt04-setup
 mkdir .devcontainer
 ```
 
 2) Inside .devcontainer, create a devcontainer.json file:
 
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> edits/mt04-setup
 touch .devcontainer/devcontainer.json
 ```
 
@@ -123,11 +100,7 @@ func main() {
 
 1) Build the program using the build subcommand:
 
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> edits/mt04-setup
 go build -o hello_comp423
 ```
 
@@ -135,26 +108,14 @@ This creates a binary file named hello_comp423 in your project directory. The bu
 
 2) Run the compiled binary:
 
-<<<<<<< HEAD
 ```
-=======
-```bash
->>>>>>> edits/mt04-setup
 ./hello_comp423
 ```
 
 Expected output:
 
-<<<<<<< HEAD
 ```
 Hello COMP423
 ```
 
-=======
-```bash
-Hello COMP423
-```
-!!! info Help
-      If anything goes wrong, you can use the `$ go help` command to see helpful commands.
->>>>>>> edits/mt04-setup
 
