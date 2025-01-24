@@ -4,10 +4,10 @@ Primary author: [Grace Fei](https://github.com/gracefei08)
 ## Prerequisites
 Before starting, ensure you have the following tools installed on your machine:
 
-- Docker
-- Visual Studio Code
+- [Docker](https://www.docker.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 - Remote - Containers extension for VS Code
-- Git
+- [Git](https://git-scm.com/)
 
 ## Instructions
 
